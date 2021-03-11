@@ -1,0 +1,194 @@
+.mediaViewInfo {
+	--web-view-name: home;
+	--web-view-id: home;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: home;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#home {
+	position: absolute;
+	width: 1920px;
+	height: 1080px;
+	background-color: rgba(227,220,220,1);
+	overflow: hidden;
+	--web-view-name: home;
+	--web-view-id: home;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+#Rectangle_1 {
+	fill: rgba(0,0,0,0.98);
+}
+.Rectangle_1 {
+	filter: drop-shadow(0px 12px 48px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 2064px;
+	height: 303px;
+	left: 0px;
+	top: 0px;
+}
+#_ {
+	opacity: 0.5;
+	left: 1772px;
+	top: 59px;
+	position: absolute;
+	overflow: visible;
+	width: 114px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 32px;
+	color: rgba(255,255,255,1);
+}
+#__k {
+	opacity: 0.5;
+	left: 1559px;
+	top: 59px;
+	position: absolute;
+	overflow: visible;
+	width: 144px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 32px;
+	color: rgba(255,255,255,1);
+}
+#Rectangle_2 {
+	fill: rgba(255,255,255,1);
+}
+.Rectangle_2 {
+	position: absolute;
+	overflow: visible;
+	width: 170px;
+	height: 16px;
+	left: 28px;
+	top: 0px;
+}
+#Path_2_n {
+	opacity: 0.78;
+	fill: url(#Path_2_n);
+}
+.Path_2_n {
+	overflow: visible;
+	position: absolute;
+	width: 219.248px;
+	height: 142.121px;
+	left: 5.155px;
+	top: 8px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#__o {
+	left: 45px;
+	top: 51px;
+	position: absolute;
+	overflow: visible;
+	width: 137px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 38px;
+	color: rgba(255,255,255,1);
+}
+#Rectangle_3 {
+	opacity: 0;
+	fill: rgba(255,255,255,1);
+}
+.Rectangle_3 {
+	position: absolute;
+	overflow: visible;
+	width: 170px;
+	height: 16px;
+	left: 1543.721px;
+	top: 0px;
+}
+#Path_3_r {
+	opacity: 0;
+	fill: url(#Path_3_r);
+}
+.Path_3_r {
+	overflow: visible;
+	position: absolute;
+	width: 219.248px;
+	height: 142.121px;
+	left: 1520.876px;
+	top: 8px;
+	transform: matrix(1,0,0,1,0,0);
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: login.html;
+	cursor: pointer;
+}
+#Rectangle_4 {
+	opacity: 0;
+	fill: rgba(255,255,255,1);
+}
+.Rectangle_4 {
+	position: absolute;
+	overflow: visible;
+	width: 170px;
+	height: 16px;
+	left: 1723.597px;
+	top: 0px;
+}
+#Path_4_u {
+	opacity: 0;
+	fill: url(#Path_4_u);
+}
+.Path_4_u {
+	overflow: visible;
+	position: absolute;
+	width: 219.248px;
+	height: 142.121px;
+	left: 1700.752px;
+	top: 8px;
+	transform: matrix(1,0,0,1,0,0);
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: register.html;
+	cursor: pointer;
+}
+
+
+
+
+
+
+#Path_4_u:hover{
+    /* CSS */
+    display:block!important;    
+    opacity:0.6;
+    transition: 0.5s all;
+    padding-right:19px;     
+}
+#Path_3_r:hover{
+    /* CSS */
+    display:block!important;    
+    opacity:0.6;
+    transition: 0.5s all;
+    padding-right:19px;     
+}
